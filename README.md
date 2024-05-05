@@ -3,7 +3,7 @@
 This repository contains the code for a simple, yet functional, DIY Pizza App built with HTML, CSS, and JavaScript. The app allows users to customize their pizza by selecting different toppings.
 
 # Feature
-Topping Selection: Users can choose from a variety of toppings to add to their pizza.
+<strong>Topping Selection</strong>: Users can choose from a variety of toppings to add to their pizza.
 
 # Technologies Used
 <strong>HTML</strong>: Used for structuring the web page. <br>
