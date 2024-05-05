@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+		   DIY PIZZA
+		</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<h1 class="text-align-center">DIY PIZZA</h1>
+		
+		<div class="pizza">
+			<div class="col overlay layer4 hide"><img src="pizza/pineapple/13.png" class="full-width"></div>
+			<div class="col overlay layer3 hide"><img src="pizza/pepperoni/19.png" class="full-width"></div>
+			<div class="col overlay layer2 hide"><img src="pizza/cheese.png" class="full-width"></div>
+			<div class="col overlay layer1 hide"><img src="pizza/sauce.png" class="full-width"></div>
+			<div class="col"><img src="pizza/dough.png" class="full-width"></div>
+		</div>
+
+		<div class="row">
+			<div class="col layer4-toppings hide">
+				<div class="text-align padding">Pineapple tidbits: <span class="total">13</span></div>
+				<div class="sliderange-container">
+					<input type="range" min="1" value="13" max="13" class="slider" data-pizzalayer="layer4">
+				</div>
+			</div>
+			<div class="col layer3-toppings hide">
+				<div class="text-align padding">Pepperoni slices: <span class="total">19</span></div>
+				<div class="sliderange-container">
+					<input type="range" value="19" min="1" max="19" class="slider" data-pizzalayer="layer3">
+				</div>
+			</div>
+		</div>
+
+		<h2 class="text-align-center">Ingredients</h2>
+
+		<div class="row flex-row flex-wrap flex-justify-content-center">
+			<div class="col">
+				<label class="checkbox-container" for="layer1">
+					<input type="checkbox" class="checkbox" value="layer1" id="layer1"> 
+					<img src="pizza/sauce.png"> 
+					<span class="checkmark"></span>
+					<div class="label">Sauce</div>
+				</label>
+			</div>
+			<div class="col">
+				<label class="checkbox-container" for="layer2">
+					<input type="checkbox" class="checkbox" value="layer2" id="layer2"> 
+					<img src="pizza/cheese.png"> 
+					<span class="checkmark"></span>
+					<div class="label">Cheese</div>
+				</label>
+			</div>
+			<div class="col">
+				<label class="checkbox-container" for="layer3">
+					<input type="checkbox" class="checkbox" value="layer3" id="layer3"> 
+					<img src="pizza/pepperoni/19.png"> 
+					<span class="checkmark"></span>
+					<div class="label">Pepperoni</div>
+				</label>
+			</div>
+			<div class="col">
+				<label class="checkbox-container" for="layer4">
+					<input type="checkbox" class="checkbox" value="layer4" id="layer4"> 
+					<img src="pizza/pineapple/13.png"> 
+					<span class="checkmark"></span>
+					<div class="label">Pineapple</div>
+				</label>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
